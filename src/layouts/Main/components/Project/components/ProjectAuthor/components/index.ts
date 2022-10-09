@@ -1,0 +1,1 @@
+export { ProjectAuthorGithubUser } from './GithubUser';

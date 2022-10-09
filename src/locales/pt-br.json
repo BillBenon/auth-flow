@@ -1,0 +1,297 @@
+{
+  "app": {
+    "title": "Auth Flow"
+  },
+  "common": {
+    "themes": {
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "locales": {
+      "en-US": "Inglês",
+      "pt-BR": "Português"
+    },
+    "project": {
+      "description": "O projeto foi criado no intuito de validar o processo de persistência da autenticação do usuário em projetos Nextjs que utilizam Server Side Rendering (SSR) e Static Site Generation (SSG)."
+    },
+    "errors": {
+      "min": "Pelo menos {count} caracteres"
+    },
+    "forgot_password": "Esqueci minha senha"
+  },
+  "home": {
+    "title": "Bem vindo(a)"
+  },
+  "sign-in": {
+    "title": "Entrar",
+    "description": "Entre para continuar para seu perfil",
+    "form": {
+      "email": {
+        "label": "Digite seu e-mail",
+        "placeholder": "É só digitar, sem erro"
+      },
+      "password": {
+        "label": "Digite sua senha",
+        "placeholder": "Não vou contar pra ninguém 🤫"
+      },
+      "submit": "Entrar"
+    },
+    "errors": {
+      "email": {
+        "required": "O endereço de e-mail é obrigatório",
+        "invalid": "Você precisa informar um endereço de e-mail válido",
+        "not_exists": "Conta não encontrada"
+      },
+      "password": {
+        "required": "A senha é obrigatória",
+        "minlength": "Pelo menos {minlength} caracteres",
+        "wrong": "Senha incorreta"
+      },
+      "fallback": {
+        "title": "Algo deu errado",
+        "description": "Não foi possível fazer seu login no momento. Por favor, tente novamente mais tarde.",
+        "button": "Ok"
+      }
+    },
+    "footer": {
+      "text": "Ainda não tem uma conta?",
+      "create_account": "Criar conta agora mesmo"
+    }
+  },
+  "sign-up": {
+    "title": "Criar conta",
+    "description": "Ainda não tem uma conta? Então você está no lugar certo",
+    "form": {
+      "name": {
+        "label": "Qual o seu nome?",
+        "placeholder": "Alejandro? Fernando? Roberto? ..."
+      },
+      "email": {
+        "label": "Qual seu endereço de e-mail?",
+        "placeholder": "Seu melhor e-mail"
+      },
+      "password": {
+        "label": "Informe uma senha",
+        "placeholder": "Esse vai ser nosso segredinho 😉"
+      },
+      "password_confirmation": {
+        "label": "Confirme sua senha",
+        "placeholder": "As senhas devem ser iguais"
+      },
+      "submit": "Criar conta"
+    },
+    "errors": {
+      "name": {
+        "required": "O nome é obrigatório",
+        "minlength": "Pelo menos {minlength} caracteres"
+      },
+      "email": {
+        "required": "O endereço de e-mail é obrigatório",
+        "invalid": "Você precisa informar um endereço de e-mail válido",
+        "already_exists": "Este e-mail já está sendo utilizado"
+      },
+      "password": {
+        "required": "A senha é obrigatória",
+        "minlength": "Pelo menos {minlength} caracteres"
+      },
+      "password_confirmation": {
+        "required": "A confirmação de senha é obrigatória",
+        "minlength": "Pelo menos {minlength} caracteres",
+        "divergent": "As senhas devem ser iguais"
+      },
+      "fallback": {
+        "title": "Algo deu errado",
+        "description": "Não foi possível criar sua conta no momento. Por favor, tente novamente mais tarde.",
+        "button": "Ok"
+      }
+    },
+    "footer": {
+      "text": "Ei, espera",
+      "sign_in": "eu já tenho uma conta"
+    }
+  },
+  "welcome-back": {
+    "title": "Olá novamente, {firstName}!",
+    "description": "Informe sua senha para continuar 🔑",
+    "form": {
+      "password": {
+        "label": "Digite sua senha",
+        "placeholder": "Vou manter em segredo... eu juro ✋"
+      },
+      "submit": "Continuar"
+    },
+    "errors": {
+      "password": {
+        "required": "A senha é obrigatória",
+        "min": "Pelo menos {count} caracteres"
+      }
+    },
+    "footer": {
+      "sign_in": "Entrar com outra conta"
+    }
+  },
+  "update-profile-name": {
+    "title": "Alterar nome",
+    "description": "Alterar o nome visível no seu perfil",
+    "form": {
+      "name": {
+        "label": "Nome",
+        "placeholder": "Digite seu nome "
+      },
+      "submit": "Salvar"
+    },
+    "errors": {
+      "name": {
+        "required": "O nome é obrigatório",
+        "minlength": "Pelo menos {minlength} caracteres"
+      },
+      "fallback": {
+        "title": "Algo deu errado",
+        "description": "Não foi possível alterar seu nome no momento. Por favor, tente novamente mais tarde.",
+        "button": "Ok"
+      }
+    },
+    "messages": {
+      "success": {
+        "title": "Prontinho!",
+        "description": "Nome alterado com sucesso"
+      }
+    }
+  },
+  "update-profile-email": {
+    "title": "Alterar endereço de e-mail",
+    "description": "Alterar seu endereço de e-mail atual (para futuros acessos e mensagens de comunicação)",
+    "form": {
+      "email": {
+        "label": "Endereço de e-mail",
+        "placeholder": "Digite seu novo endereço de e-mail"
+      },
+      "submit": "Enviar"
+    },
+    "errors": {
+      "email": {
+        "required": "O endereço de e-mail é obrigatório",
+        "invalid": "Você precisa informar um endereço de e-mail válido",
+        "already_exists": "Este e-mail já está sendo utilizado"
+      },
+      "fallback": {
+        "title": "Algo deu errado",
+        "description": "Não foi possível alterar seu endereço de e-mail no momento. Por favor, tente novamente mais tarde.",
+        "button": "Ok"
+      }
+    },
+    "messages": {
+      "success": {
+        "title": "Pronto!",
+        "description": "Endereço de e-mail alterado com sucesso"
+      }
+    }
+  },
+  "update-profile-password": {
+    "title": "Alterar senha",
+    "description": "Informe sua senha atual para efetuar a alteração",
+    "form": {
+      "old_password": {
+        "label": "Senha atual",
+        "placeholder": "Informe sua atual senha"
+      },
+      "new_password": {
+        "label": "Nova senha",
+        "placeholder": "Insira uma nova senha"
+      },
+      "new_password_confirmation": {
+        "label": "Confirmação da nova senha",
+        "placeholder": "Confirme sua nova senha"
+      },
+      "submit": "Salvar"
+    },
+    "errors": {
+      "old_password": {
+        "required": "A senha atual é obrigatória",
+        "minlength": "Pelo menos {minlength} caracteres",
+        "wrong": "Wrong password"
+      },
+      "new_password": {
+        "required": "A nova senha é obrigatória",
+        "minlength": "Pelo menos {minlength} caracteres"
+      },
+      "new_password_confirmation": {
+        "required": "A confirmação da nova senha é obrigatória",
+        "minlength": "Pelo menos {minlength} caracteres",
+        "divergent": "As senhas não condizem"
+      },
+      "fallback": {
+        "title": "Algo deu errado",
+        "description": "Não foi possível alterar sua senha no momento. Por favor, tente novamente mais tarde.",
+        "button": "Ok"
+      }
+    },
+    "messages": {
+      "success": {
+        "title": "Pronto!",
+        "description": "Senha alterada com sucesso"
+      }
+    }
+  },
+  "profile": {
+    "label": "Olá, {firstName}",
+    "title": "Meu perfil",
+    "links": {
+      "name": {
+        "label": "Nome"
+      },
+      "email": {
+        "label": "Endereço de e-mail"
+      },
+      "password": {
+        "label": "Senha",
+        "text": "Alterar minha senha"
+      }
+    },
+    "actions": {
+      "sign-out-button": "Sair"
+    }
+  },
+  "password-recovery-page": {
+    "title": "Esqueci minha senha",
+    "description": "Sem crise, bicho... vamos te ajudar",
+    "form": {
+      "email": {
+        "label": "Endereço de e-mail",
+        "placeholder": "Informe seu endereço de e-mail"
+      },
+      "submit": "Recuperar senha"
+    },
+    "errors": {
+      "email": {
+        "required": "O endereço de e-mail é obrigatório",
+        "invalid": "Você precisa informar um endereço de e-mail válido"
+      }
+    }
+  },
+  "password-reset-page": {
+    "title": "Resetar senha",
+    "description": "Fácil, né? Agora é só informar sua nova senha",
+    "form": {
+      "new_password": {
+        "label": "Nova senha",
+        "placeholder": "Insira uma nova senha"
+      },
+      "new_password_confirmation": {
+        "label": "Confirmação da nova senha",
+        "placeholder": "Confirme sua nova senha"
+      },
+      "submit": "Salvar"
+    },
+    "errors": {
+      "new_password": {
+        "required": "A nova senha é obrigatória"
+      },
+      "new_password_confirmation": {
+        "required": "A confirmação da nova senha é obrigatória",
+        "match": "As senhas não condizem"
+      }
+    }
+  }
+}
